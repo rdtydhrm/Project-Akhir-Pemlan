@@ -1,23 +1,15 @@
-public class LostItem {
-    private String name;
-    private String description;
-    private String location;
-    private String date;
-
+public class LostItem extends Item {
     public LostItem(String name, String description, String location, String date) {
-        this.name = name;
-        this.description = description;
-        this.location = location;
-        this.date = date;
+        super(name, description, location, date);
     }
 
-    public String getName() { return name; }
-    public String getDescription() { return description; }
-    public String getLocation() { return location; }
-    public String getDate() { return date; }
+    @Override
+    public String getInfo() {
+        return getName() + " | " + getDescription() + " | " + getLocation() + " | " + getDate();
+    }
 
     @Override
     public String toString() {
-        return name + " | " + description + " | " + location + " | " + date;
+        return getInfo();
     }
 }

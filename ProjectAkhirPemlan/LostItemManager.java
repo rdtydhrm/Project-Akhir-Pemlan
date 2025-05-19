@@ -2,19 +2,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LostItemManager {
-    private List<LostItem> items = new ArrayList<>();
+    private List<Item> items = new ArrayList<>();
 
-    public void addItem(LostItem item) {
+    public void addItem(Item item) {
         items.add(item);
     }
 
-    public List<LostItem> getItems() {
+    public List<Item> getItems() {
         return items;
     }
 
-    public List<LostItem> searchByName(String name) {
-        List<LostItem> result = new ArrayList<>();
-        for (LostItem item : items) {
+    public List<Item> searchByName(String name) {
+        List<Item> result = new ArrayList<>();
+        for (Item item : items) {
             if (item.getName().toLowerCase().contains(name.toLowerCase())) {
                 result.add(item);
             }
