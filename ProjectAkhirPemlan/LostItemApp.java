@@ -9,7 +9,7 @@ public class LostItemApp extends JFrame { // Inheritance (extends JFrame)
 
     public LostItemApp() {
         setTitle("Finding Nemu by Nemu Developers");
-        setIconImage(Toolkit.getDefaultToolkit().getImage("Logo.png")); // Ganti dengan path icon Anda
+        setIconImage(Toolkit.getDefaultToolkit().getImage("Logo.png")); // path logo
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setMinimumSize(new Dimension(640, 480));
         setLocationRelativeTo(null);
