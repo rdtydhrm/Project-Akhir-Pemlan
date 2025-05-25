@@ -1,0 +1,99 @@
+Payung|Warna Hitam, ukuran sedang|Edutech|2025-05-19
+Charger Laptop|Asus, berwarna hitam|Junction|2025-05-21
+Lip gloss|Sea make up, case peach, ada stiker transformers|GKM|2025-05-24
+Buku|Warna Hitam, ukuran sedang|Edutech|2025-05-19
+Charger HP|Asus, berwarna hitam|Junction|2025-05-21
+Lipstick|Sea make up, case peach, ada stiker transformers|GKM|2025-05-24
+Mouse|Wireless, warna biru|Edutech|2025-05-25
+Keyboard|Mechanical, warna hitam|Edutech|2025-05-26
+Flashdisk|16GB, warna merah|Junction|2025-05-27
+Kabel Data|Type-C, warna putih|GKM|2025-05-28
+Botol Minum|500ml, warna hijau|Edutech|2025-05-29
+Tas Ransel|Kanvas, warna coklat|Junction|2025-05-30
+Pulpen|Gel, warna biru|GKM|2025-05-31
+Pensil|2B, warna kuning|Edutech|2025-06-01
+Penghapus|Putih, kecil|Junction|2025-06-02
+Penggaris|30cm, plastik|GKM|2025-06-03
+Spidol|Permanent, warna hitam|Edutech|2025-06-04
+Stabilo|Warna hijau neon|Junction|2025-06-05
+Buku Catatan|A5, spiral|GKM|2025-06-06
+Binder|A4, warna biru|Edutech|2025-06-07
+Kalkulator|Casio, warna hitam|Junction|2025-06-08
+Jam Tangan|Digital, warna hitam|GKM|2025-06-09
+Kacamata|Frame hitam, minus|Edutech|2025-06-10
+Dompet|Kulit, warna coklat|Junction|2025-06-11
+Topi|Baseball, warna merah|GKM|2025-06-12
+Gantungan Kunci|Akrilik, karakter kartun|Edutech|2025-06-13
+Handuk|Kecil, warna biru|Junction|2025-06-14
+Sapu Tangan|Motif kotak|GKM|2025-06-15
+Masker|Kain, warna hitam|Edutech|2025-06-16
+Powerbank|10000mAh, warna putih|Junction|2025-06-17
+Headset|Bluetooth, warna hitam|GKM|2025-06-18
+Speaker|Mini, warna merah|Edutech|2025-06-19
+Kipas Angin|Portable, warna biru|Junction|2025-06-20
+Lampu Meja|LED, warna putih|GKM|2025-06-21
+Cermin|Kecil, bulat|Edutech|2025-06-22
+Sisir|Plastik, warna hitam|Junction|2025-06-23
+Parfum|Botol kecil, aroma vanilla|GKM|2025-06-24
+Sabun Cuci Tangan|Botol pump|Edutech|2025-06-25
+Hand Sanitizer|Botol kecil, 60ml|Junction|2025-06-26
+Tisu Basah|Paket 10 lembar|GKM|2025-06-27
+Tisu Kering|Paket 50 lembar|Edutech|2025-06-28
+Korek Api|Gas, warna merah|Junction|2025-06-29
+Obeng|Plus, ukuran kecil|GKM|2025-06-30
+Tang|Mini, warna hitam|Edutech|2025-07-01
+Lakban|Bening, 2 inch|Junction|2025-07-02
+Gunting|Stainless, kecil|GKM|2025-07-03
+Pisau Cutter|Kecil, warna kuning|Edutech|2025-07-04
+Stapler|Mini, warna biru|Junction|2025-07-05
+Isi Staples|No.10, 1000 pcs|GKM|2025-07-06
+Map Plastik|A4, warna hijau|Edutech|2025-07-07
+Amplop|Coklat, ukuran besar|Junction|2025-07-08
+Kertas HVS|A4, 80gsm|GKM|2025-07-09
+Kertas Folio|Biru, 100 lembar|Edutech|2025-07-10
+Kertas Origami|Warna-warni, 50 lembar|Junction|2025-07-11
+Sticky Note|Kuning, 100 lembar|GKM|2025-07-12
+Klip Kertas|Besar, 50 pcs|Edutech|2025-07-13
+Paper Clip|Kecil, 100 pcs|Junction|2025-07-14
+Binder Clip|Medium, 12 pcs|GKM|2025-07-15
+Lem Kertas|Stick, 8gr|Edutech|2025-07-16
+Lem Cair|Botol kecil|Junction|2025-07-17
+Penghapus Papan|Magnetik, kecil|GKM|2025-07-18
+Papan Tulis|Mini, putih|Edutech|2025-07-19
+Kalkulator Saku|Mini, warna biru|Junction|2025-07-20
+Kunci Loker|Kecil, besi|GKM|2025-07-21
+Kunci Motor|Honda, warna hitam|Edutech|2025-07-22
+Kunci Mobil|Toyota, warna hitam|Junction|2025-07-23
+Remote AC|LG, warna putih|GKM|2025-07-24
+Remote TV|Samsung, warna hitam|Edutech|2025-07-25
+Baterai AA|Alkaline, 2 pcs|Junction|2025-07-26
+Baterai AAA|Alkaline, 4 pcs|GKM|2025-07-27
+Kabel Roll|3 meter, warna putih|Edutech|2025-07-28
+Adaptor|5V, warna hitam|Junction|2025-07-29
+Lampu Bohlam|LED, 10W|GKM|2025-07-30
+Senter|Mini, warna hitam|Edutech|2025-07-31
+Obat Nyamuk|Elektrik, refill|Junction|2025-08-01
+Obat Luka|Betadine, 10ml|GKM|2025-08-02
+Plester Luka|Isi 10, warna kulit|Edutech|2025-08-03
+Kapas|Bola, 50gr|Junction|2025-08-04
+Kasa Steril|10x10cm, 5 lembar|GKM|2025-08-05
+Minyak Kayu Putih|Botol kecil|Edutech|2025-08-06
+Minyak Telon|Botol kecil|Junction|2025-08-07
+Minyak Angin|Roll on, 10ml|GKM|2025-08-08
+Obat Sakit Kepala|Paracetamol, strip|Edutech|2025-08-09
+Obat Flu|Tablet, strip|Junction|2025-08-10
+Obat Batuk|Sirup, 60ml|GKM|2025-08-11
+Vitamin C|Tablet, botol|Edutech|2025-08-12
+Vitamin D|Tablet, botol|Junction|2025-08-13
+Susu UHT|200ml, rasa coklat|GKM|2025-08-14
+Teh Botol|350ml, manis|Edutech|2025-08-15
+Air Mineral|600ml, botol|Junction|2025-08-16
+Kopi Sachet|3 in 1, isi 10|GKM|2025-08-17
+Mie Instan|Goreng, isi 5|Edutech|2025-08-18
+Roti Tawar|500gr, tanpa kulit|Junction|2025-08-19
+Selai Kacang|Botol kecil|GKM|2025-08-20
+Coklat Batang|Milk, 50gr|Edutech|2025-08-21
+Permen|Mint, isi 20|Junction|2025-08-22
+Keripik Kentang|Original, 70gr|GKM|2025-08-23
+Biskuit|Coklat, isi 12|Edutech|2025-08-24
+PlayStation5|Warnanya hitam dan mehong|Toilet Lt1|2025-10-12
