@@ -1,10 +1,11 @@
-public abstract class Item {
+public abstract class Item { // abstract class
     private String name;
     private String description;
     private String location;
     private String date;
 
-    public Item(String name, String description, String location, String date) {
+    // Constructor
+    public Item(String name, String description, String location, String date) { // Constructor
         this.name = name;
         this.description = description;
         this.location = location;
@@ -16,5 +17,5 @@ public abstract class Item {
     public String getLocation() { return location; }
     public String getDate() { return date; }
 
-    public abstract String getInfo();
+    public abstract String getInfo(); // abstract method (polimorfisme)
 }

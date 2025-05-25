@@ -2,14 +2,14 @@ import java.util.*;
 import java.io.*;
 
 public class LostItemManager {
-    private List<Item> items = new ArrayList<>();
+    private List<Item> items = new ArrayList<>(); // Collection (List), Asosiasi ke Item
     private static final String FILE_NAME = "data_barang.txt";
 
-    public LostItemManager() {
+    public LostItemManager() { // Constructor
         loadFromFile();
     }
 
-    public void addItem(Item item) {
+    public void addItem(Item item) { // Asosiasi: menerima objek Item
         items.add(item);
         saveToFile();
     }
@@ -49,11 +49,13 @@ public class LostItemManager {
             while ((line = br.readLine()) != null) {
                 String[] parts = line.split("\\|");
                 if (parts.length == 4) {
-                    items.add(new LostItem(parts[0], parts[1], parts[2], parts[3]));
+                    items.add(new LostItem(parts[0], parts[1], parts[2], parts[3])); // Asosiasi: membuat objek LostItem
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+    public java.util.List<Item> getAllItems() {
+        return items;}
 }

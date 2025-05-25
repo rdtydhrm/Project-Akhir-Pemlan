@@ -1,17 +1,19 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
-public class LostItemApp extends JFrame {
-    private LostItemManager manager = new LostItemManager();
+
+public class LostItemApp extends JFrame { // Inheritance (extends JFrame)
+    private LostItemManager manager = new LostItemManager(); // Asosiasi ke LostItemManager
     private DefaultListModel<String> listModel = new DefaultListModel<>();
     private JList<String> itemList = new JList<>(listModel);
 
     public LostItemApp() {
-        setTitle("Aplikasi Kehilangan Barang");
+        setTitle("Finding Nemu by Nemu Developers");
+        setIconImage(Toolkit.getDefaultToolkit().getImage("Logo.png")); // Ganti dengan path icon Anda
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(560, 440);
+        setMinimumSize(new Dimension(640, 480));
         setLocationRelativeTo(null);
+        setExtendedState(JFrame.MAXIMIZED_BOTH);
 
         // Set global font
         Font mainFont = new Font("Segoe UI", Font.PLAIN, 15);
@@ -77,6 +79,10 @@ public class LostItemApp extends JFrame {
         mainPanel.add(searchPanel, BorderLayout.SOUTH);
         setContentPane(mainPanel);
 
+        for (Item item : manager.getAllItems()) { // Polimorfisme: menggunakan referensi Item
+            listModel.addElement(item.toString());
+        }
+
         // Event tambah barang
         addButton.addActionListener(e -> {
             String name = nameField.getText();
@@ -84,7 +90,7 @@ public class LostItemApp extends JFrame {
             String loc = locField.getText();
             String date = dateField.getText();
             if (!name.isEmpty() && !desc.isEmpty() && !loc.isEmpty() && !date.isEmpty()) {
-                LostItem item = new LostItem(name, desc, loc, date);
+                LostItem item = new LostItem(name, desc, loc, date); // Asosiasi: membuat objek LostItem
                 manager.addItem(item);
                 listModel.addElement(item.toString());
                 nameField.setText("");
@@ -100,11 +106,38 @@ public class LostItemApp extends JFrame {
         searchButton.addActionListener(e -> {
             String keyword = searchField.getText();
             listModel.clear();
-            for (Item item : manager.searchByName(keyword)) {
+            for (Item item : manager.searchByName(keyword)) { // Polimorfisme: menggunakan referensi Item
                 listModel.addElement(item.toString());
             }
         });
 
         setVisible(true);
+
+        itemList.addMouseListener(new java.awt.event.MouseAdapter() {
+           public void mouseClicked(java.awt.event.MouseEvent evt) {
+                int index = itemList.locationToIndex(evt.getPoint());
+                if (index >= 0 && evt.getClickCount()== 2){
+                    String selected = listModel.getElementAt(index);
+                    int result = JOptionPane.showOptionDialog(
+                        LostItemApp.this,
+                        "Apakah barang ini milik anda\n" + selected,
+                        "Konfirmasi",
+                        JOptionPane.YES_NO_OPTION,
+                        JOptionPane.QUESTION_MESSAGE,
+                        null,
+                        new Object[]{"Barang itu miliki saya", "batal"},
+                        "Barang itu milik saya"
+                    );
+                    if (result == JOptionPane.YES_OPTION) {
+                        manager.getItems().remove(index);
+                        listModel.remove(index);
+                        manager.saveToFile();
+                        JOptionPane.showMessageDialog(LostItemApp.this, "Barang telah dihapus dari daftar.");
+                        
+                    }
+                }
+                }
+            });
+        
     }
 }
