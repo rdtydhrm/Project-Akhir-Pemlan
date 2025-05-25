@@ -7,7 +7,7 @@ public class SplashScreen extends JWindow { // Inheritance (extends JWindow)
         JPanel content = (JPanel) getContentPane();
         content.setBackground(new Color(45, 155, 243)); // Ganti dengan warna yang diinginkan
 
-        JLabel label = new JLabel(new ImageIcon("LogoPanjang.png")); // Ganti dengan path logo Anda"));
+        JLabel label = new JLabel(new ImageIcon("LogoPanjang.png")); // path logo
         JLabel Copyrt = new JLabel ("loading, sabar yakk....", JLabel.CENTER);
         Copyrt.setFont(new Font("Arial", Font.BOLD, 20));
        
